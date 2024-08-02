@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: BlogDemo
+  datasource:
+    url: jdbc:postgresql://localhost:5432/blogportfolio
+    username: postgres
+    password: nihad
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
